@@ -33,18 +33,18 @@
 
 #### Optimization Parameters 
 
-**max_tokens**: specifies the maximum number of tokens that the model should generate in response to the prompt.
+    **max_tokens**: specifies the maximum number of tokens that the model should generate in response to the prompt.
 
-**temperature**: controls the randomness of the generated response. A higher temperature value will result in a more random response, while a lower temperature value will result in a more predictable response.
+     **temperature**: controls the randomness of the generated response. A higher temperature value will result in a more random response, while a lower temperature value will result in a more predictable response.
 
-**top_p:** This parameter controls the diversity of the generated response by establishing a cumulative probability cutoff for token selection. A higher value of top_p will result in a more diverse response, while a lower value will result in a less diverse response.
+     **top_p:** This parameter controls the diversity of the generated response by establishing a cumulative probability cutoff for token selection. A higher value of top_p will result in a more diverse response, while a lower value will result in a less diverse response.
 
-**top_k**: This parameter controls the maximum number of most-likely next tokens to consider when generating the response at each step.
+    **top_k**: This parameter controls the maximum number of most-likely next tokens to consider when generating the response at each step.
 
-**repeat_penalty**: This parameter controls the penalty for repeating tokens in the generated response. A higher value of repeat_penalty will result in a lower probability of repeating tokens, while a lower value will result in a higher probability of repeating tokens.
+    **repeat_penalty**: This parameter controls the penalty for repeating tokens in the generated response. A higher value of repeat_penalty will result in a lower probability of repeating tokens, while a lower value will result in a higher probability of repeating tokens.
 
-**stop**: This parameter is a list of tokens that are used to dynamically stop response generation whenever the tokens in the list are encountered.
+    **stop**: This parameter is a list of tokens that are used to dynamically stop response generation whenever the tokens in the list are encountered.
 
-**echo**: This parameter controls whether the input (prompt) to the model should be returned in the model response.
+    **echo**: This parameter controls whether the input (prompt) to the model should be returned in the model response.
 
-seed: This parameter specifies a seed value that helps replicate results.
+     **seed: This parameter specifies a seed value that helps replicate results.
