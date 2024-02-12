@@ -1,4 +1,4 @@
-# Large Language Model for Sentiment Analysis (Opinion Mining) - Christmas Movies Review
+# Foundation Model: Large Language Model For Christmas Movies Review
 
 <center><p float="center">
   <img src="https://www.wfla.com/wp-content/uploads/sites/71/2019/12/CHRISTMAS-MOVIES-2.jpg?w=876&h=493&crop=1" width=650/>
@@ -7,11 +7,11 @@
 ## Problem Statement
 
 ### Business Context
-- Christmas has come to represent different things to people over the years, and the movies here reflect that in kind. If you’re traditional and feeling nostalgic,you’ll be pleased to see reviews on some of popular christmas movies such as The Holiday, Bad Santa, love Actually etc
+- Christmas has come to represent different things to people over the years, and the movies here reflect that in kind. If you’re traditional and feeling nostalgic,you’ll be pleased to see reviews on some of popular Christmas movies such as The Holiday, Bad Santa, Love Actually etc
 ### Problem Definition
-- Despite the abundance of movie reviews available on the internet, film studios are often faced with challengesin deriving key insights from these various data sources - primarily due to huge volume of text data tends to be compute constraints.
+- Despite the abundance of movie reviews available on the internet, film studios often face challenges deriving key insights from these various data sources - primarily due to the huge volume of text data tends to be compute constraints.
 ### Objective
-- To identify and extract subjective information from 5 christmas movies, and helping a film studios to understand the social opinion of their movies - plot, cast, screenplay etc while monitoring online discourse.
+- To identify and extract subjective information from 5 Christmas movies, and helping a film studios to understand the social opinion of their movies - plot, cast, screenplay etc while monitoring online discourse.
 ### Data Source
  - Review data for 5 movies was harvested from IMDb, Rotten Tomatoes and Metacritic
 
@@ -33,7 +33,7 @@
 
 #### Optimization Parameters 
 
-    **max_tokens**: specifies the maximum number of tokens that the model should generate in response to the prompt.
+    **max_tokens**: specifies the maximum number of tokens the model should generate in response to the prompt.
 
      **temperature**: controls the randomness of the generated response. A higher temperature value will result in a more random response, while a lower temperature value will result in a more predictable response.
 
